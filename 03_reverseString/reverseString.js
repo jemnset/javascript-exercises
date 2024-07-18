@@ -1,5 +1,5 @@
 const reverseString = function(strToReverse) {
-    let result = "";
+    /**let result = "";
 
     const splitStr = strToReverse.split("");
 
@@ -7,7 +7,9 @@ const reverseString = function(strToReverse) {
         result += splitStr[i];
     }
 
-    return result;
+    return result;**/
+
+    return strToReverse.split("").reverse().join("");
 };
 
 // Do not edit below this line
